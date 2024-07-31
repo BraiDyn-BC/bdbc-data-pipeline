@@ -1,0 +1,9 @@
+[submodule "bdbc-nwb-packager"]
+	path = bdbc-nwb-packager
+	url = git@github.com:BraiDyn-BC/bdbc-nwb-packager.git
+[submodule "bdbc-session-explorer"]
+	path = bdbc-session-explorer
+	url = git@github.com:BraiDyn-BC/bdbc-session-explorer.git
+[submodule "bdbc-atlas-registration"]
+	path = bdbc-atlas-registration
+	url = git@github.com:BraiDyn-BC/bdbc-atlas-registration.git
