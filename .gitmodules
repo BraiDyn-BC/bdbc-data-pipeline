@@ -7,3 +7,6 @@
 [submodule "bdbc-atlas-registration"]
 	path = bdbc-atlas-registration
 	url = git@github.com:BraiDyn-BC/bdbc-atlas-registration.git
+[submodule "bdbc-test-nwb-packaging"]
+	path = bdbc-test-nwb-packaging
+	url = git@github.com:BraiDyn-BC/bdbc-test-nwb-packaging.git
