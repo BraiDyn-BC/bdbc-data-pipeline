@@ -1,12 +1,24 @@
-[submodule "bdbc-nwb-packager"]
-	path = bdbc-nwb-packager
+[submodule "pipeline-core/bdbc-nwb-packager"]
+	path = pipeline-core/bdbc-nwb-packager
 	url = git@github.com:BraiDyn-BC/bdbc-nwb-packager.git
-[submodule "bdbc-session-explorer"]
-	path = bdbc-session-explorer
+[submodule "pipeline-core/bdbc-session-explorer"]
+	path = pipeline-core/bdbc-session-explorer
 	url = git@github.com:BraiDyn-BC/bdbc-session-explorer.git
-[submodule "bdbc-atlas-registration"]
-	path = bdbc-atlas-registration
+[submodule "atlas-registration/bdbc-atlas-registration"]
+	path = atlas-registration/bdbc-atlas-registration
 	url = git@github.com:BraiDyn-BC/bdbc-atlas-registration.git
-[submodule "bdbc-test-nwb-packaging"]
-	path = bdbc-test-nwb-packaging
+[submodule "testing/bdbc-test-nwb-packaging"]
+	path = testing/bdbc-test-nwb-packaging
 	url = git@github.com:BraiDyn-BC/bdbc-test-nwb-packaging.git
+[submodule "atlas-registration/ks-affine2d"]
+	path = atlas-registration/ks-affine2d
+	url = git@github.com:BraiDyn-BC/python-ks-affine2d.git
+[submodule "atlas-registration/ks-affine-aligner"]
+	path = atlas-registration/ks-affine-aligner
+	url = git@github.com:BraiDyn-BC/python-ks-affine-aligner.git
+[submodule "atlas-registration/ks-mesoscaler"]
+	path = atlas-registration/ks-mesoscaler
+	url = git@github.com:BraiDyn-BC/python-ks-mesoscaler.git
+[submodule "video-tracking/ks-pupilfitting"]
+	path = video-tracking/ks-pupilfitting
+	url = git@github.com:BraiDyn-BC/python-ks-pupilfitting.git
