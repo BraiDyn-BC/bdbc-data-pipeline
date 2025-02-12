@@ -22,3 +22,6 @@
 [submodule "video-tracking/ks-pupilfitting"]
 	path = video-tracking/ks-pupilfitting
 	url = git@github.com:BraiDyn-BC/python-ks-pupilfitting.git
+[submodule "repository-browsing/bdbc-nwb-explorer"]
+	path = repository-browsing/bdbc-nwb-explorer
+	url = git@github.com:BraiDyn-BC/bdbc-nwb-explorer.git
