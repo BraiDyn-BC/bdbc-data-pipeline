@@ -25,3 +25,6 @@
 [submodule "repository-browsing/bdbc-nwb-explorer"]
 	path = repository-browsing/bdbc-nwb-explorer
 	url = git@github.com:BraiDyn-BC/bdbc-nwb-explorer.git
+[submodule "testing/bdbc-batch-scripts"]
+	path = testing/bdbc-batch-scripts
+	url = git@github.com:BraiDyn-BC/bdbc-batch-scripts.git
