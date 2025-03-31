@@ -62,13 +62,6 @@ The minimal set of packages required for generation of NWB files (provided that 
 - [bdbc-session-explorer](../pipeline-core/bdbc-session-explorer): used to iterate over the sessions in the experiment when running [bdbc-nwb-packager](../pipeline-core/bdbc-nwb-packager).
 - [bdbc-nwb-packager](../pipeline-core/bdbc-nwb-packager): the library that does all the job related to NWB file structure generation.
 
-The directory also contains the `env.template.sh` file, for more reproducible environment variable setting in UNIX-like environments.
-
-> ![NOTE]
->
-> Please refer to the [env.template.sh](../pipeline-core/env.template.sh) file to see how it works.
->
-
 ### `atlas-registration`
 
 A set of packages used for reference atlas registration.
