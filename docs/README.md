@@ -10,10 +10,7 @@
    3. [video-tracking](#video-tracking)
    4. [repository-browsing](#repository-browsing)
    5. [testing](#testing)
-<<<<<<< HEAD
 3. [How to use the installation script](#how-to-use-the-installation-script)
-=======
->>>>>>> 213e26a (add doc)
 
 ## Pipeline overview
 
@@ -43,21 +40,12 @@ _Before_ running code in `bdbc-data-pipeline`, the following procedures must hav
 
 The following steps are performed by running the packages in `bdbc-data-pipeline`:
 
-<<<<<<< HEAD
 - **ROI registration info**: [bdbc-atlas-registration](https://github.com/BraiDyn-BC/bdbc-atlas-registration) is used to align [Allen Common Coordinate Framework v3](https://alleninstitute.github.io/abc_atlas_access/notebooks/ccf_and_parcellation_annotation_tutorial.html) to the imaging data of the raw-data HDF file. The output is a "mesoscaler" HDF file, containing the alignment information and the ROI masks corresponding to individual neocortical areas.
 - **Pupil fitting file**: [ks-pupilfitting](https://github.com/BraiDyn-BC/python-ks-pupilfitting) is used to fit an ellipse to pupil-edge keypoints of each eye video frame, and to store the fitted ellipse position and diameter in a "pupilfitting" HDF file. 
 
 ### Output files
 
 All the [intermediate files](#intermediate-files) and behavior videos (if any of them exist) are used by [bdbc-nwb-packager](https://github.com/BraiDyn-BC/bdbc-nwb-packager) to generate a set of NWB output files.
-=======
-- **ROI registration info**: [bdbc-atlas-registration](../atlas-registration/bdbc-atlas-registration) is used to align [Allen Common Coordinate Framework v3](https://alleninstitute.github.io/abc_atlas_access/notebooks/ccf_and_parcellation_annotation_tutorial.html) to the imaging data of the raw-data HDF file. The output is a "mesoscaler" HDF file, containing the alignment information and the ROI masks corresponding to individual neocortical areas.
-- **Pupil fitting file**: [ks-pupilfitting](../video-tracking/ks-pupilfitting) is used to fit an ellipse to pupil-edge keypoints of each eye video frame, and to store the fitted ellipse position and diameter in a "pupilfitting" HDF file. 
-
-### Output files
-
-All the [intermediate files](#intermediate-files) and behavior videos (if any of them exist) are used by [bdbc-nwb-packager](../pipeline-core/bdbc-nwb-packager) to generate a set of NWB output files.
->>>>>>> 213e26a (add doc)
 
 - **NWB file**: the main output in the HDF5 format. It contains (i) DAQ log, (ii) ROI activity data, (iii) behavior tracking and pupil tracking data, as well as (iv) the reference links to the imaging data and behavior video files (see below).
 - **Imaging TIFF files**: the original (but motion-corrected) imaging frames for both V and B channels are exported as TIFF files.
@@ -79,6 +67,7 @@ The minimal set of packages required for generation of NWB files (provided that 
 - [bdbc-session-explorer](../pipeline-core/bdbc-session-explorer): used to iterate over the sessions in the experiment when running [bdbc-nwb-packager](../pipeline-core/bdbc-nwb-packager).
 - [bdbc-nwb-packager](../pipeline-core/bdbc-nwb-packager): the library that does all the job related to NWB file structure generation.
 
+<<<<<<< HEAD
 The directory also contains the `env.template.sh` file, for more reproducible environment variable setting in UNIX-like environments.
 
 > ![NOTE]
@@ -87,6 +76,8 @@ The directory also contains the `env.template.sh` file, for more reproducible en
 >
 >>>>>>> 213e26a (add doc)
 
+=======
+>>>>>>> 05fe6cd (move env.template.sh to session-explorer)
 ### `atlas-registration`
 
 A set of packages used for reference atlas registration.
