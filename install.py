@@ -87,7 +87,7 @@ FEATURES = dict(
 # that may require some extra care
 DEPENDENCIES = dict(
     core=(),
-    atlas=('deeplabcut[tf]',),
+    atlas=('numpy<2', 'deeplabcut[tf]==2.3.10',),
     video=(),
     browse=(),
 )
@@ -160,4 +160,3 @@ def install_packages(
 if __name__ == '__main__':
     args = parser.parse_args()
     install_packages(**vars(args))
-
